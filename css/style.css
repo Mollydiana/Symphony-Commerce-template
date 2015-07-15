@@ -1,0 +1,355 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+body {
+    padding-bottom: 40px;
+    color: #787878;
+    font-family: proxima-nova, sans-serif;
+}
+
+a {
+    color: #363636;
+}
+
+a:hover {
+    color: #565656;
+}
+
+h2 {
+    font-size: 0.85em;
+    color: #161616;
+    font-weight: 600;
+}
+
+p {
+    margin: 0 0 10px;
+    font-weight: 200;
+    font-size: 0.9em;
+}
+
+.container-padding{
+    padding: 0 10%;
+}
+
+/* NAVBAR
+-------------------------------------------------- */
+
+.navbar-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.navbar-wrapper > .container {
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-wrapper .navbar .container {
+    width: auto;
+}
+
+.navbar-top {
+    height: 30px;
+    line-height: 11px;
+    background: #f3f3f3;
+    background: -webkit-linear-gradient( #fefefe, #eeeeee); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( #fefefe,  #eeeeee); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( #fefefe,  #eeeeee); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( #fefefe, #eeeeee);
+    font-size: 10px;
+    letter-spacing: 0.06em;
+}
+.navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-wrapper .navbar {
+    border-radius: 4px;
+}
+
+.navbar-static-top {
+    padding: 1%;
+}
+
+.navbar-brand{
+    font-family: 'Cinzel', serif;
+    font-size: 3em;
+    letter-spacing: 0.05em;
+    font-weight: 200;
+}
+
+.navbar-brand::first-letter{
+    letter-spacing: 0.1em;
+}
+
+.nav-width{
+    margin: 0 7%;
+}
+
+.navbar-brand-div {
+    background-color: white;
+    width: 100%;
+}
+
+.navbar-nav>li>a {
+    font-size: 0.75em;
+    margin-top: 6px;
+}
+
+.navbar{
+    margin: 0 10%;
+}
+
+
+/* CAROUSEL
+-------------------------------------------------- */
+
+.carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+}
+
+.shipping{
+    margin: 11px 0 0 22%;
+    font-size: 0.87em;
+    font-weight: 400;
+}
+
+.account{
+    margin: 11px 22% 0 0;
+    font-weight: 400;
+    font-size: 0.79em;
+    letter-spacing: 0.09em;
+    color: #262626;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    opacity: 1;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    width: 70px;
+    height: 70px;
+    margin: 0 34%;
+}
+
+.bag-items{
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    color: black;
+}
+
+.shopping-cart {
+    float: right;
+    margin-top: 15px;
+    padding: 4px 8px;
+    font-size: 0.57em;
+    letter-spacing: 0.092em;
+    color: #686868;
+    background: #e1e0de url(../assets/bag.png) left top no-repeat;
+    background-size: contain;
+    line-height: 1.72857143;
+    border-color: #e1e0de;
+}
+
+.bag-info{
+    padding-left: 15px;
+}
+
+
+.carousel {
+    height: 500px;
+    margin-bottom: 60px;
+    background-color: #f0f2ef;
+}
+
+.carousel .item {
+    height: 500px;
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    background-color: #F0F2ef;
+}
+
+.carousel-control{
+    opacity: 1;
+}
+
+.promotion{
+    text-align: center;
+    background-color: #ee691f;
+    padding: 12px;
+    color: white;
+    font-size: 0.65em;
+    letter-spacing: .69em;
+    font-weight: 200;
+}
+
+/* Info Section
+-------------------------------------------------- */
+
+
+.info-section {
+    text-align: center;
+}
+
+
+.rectangle {
+    width: 100%;
+    height: 200px;
+    background: #F0F2ef;
+}
+
+.learn-more-btn {
+    background-color: #161616;
+    color: white;
+    padding: 3px 53px;
+    font-size: 0.94em;
+    letter-spacing: 0.06em;
+    margin-top: 10px;
+}
+
+.learn-more-btn:hover {
+    background-color: white;
+    color: #161616;
+    padding: 3px 53px;
+    font-size: 0.94em;
+    letter-spacing: 0.06em;
+    margin-top: 10px;
+    border-color: #161616;
+}
+
+.grey-strip {
+    width: 100%;
+    background-color: #f0f2ef;
+    height: 300px;
+    margin: 30px 0 20px 0;
+}
+
+/* Info Section
+-------------------------------------------------- */
+
+.footer-blurb {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #f0f2ef;
+    font-size: 1em;
+    letter-spacing: 0.04em;
+    font-weight: 800;
+    color: #161616;
+}
+
+.input-group-addon:last-child {
+    background-color: #ee691f;
+    color: white;
+    font-size: 0.8em;
+}
+
+.form-control {
+    width: 100%;
+    height: 28px;
+    padding: 0 12px;
+    font-size: 0.97em;
+    line-height: 1.42857143;
+}
+.like-us{
+    color: #ee691f;
+}
+
+.more {
+    margin-left: 5px;
+    font-size: 0.9em;
+}
+.detials{
+    font-size: 0.8em;
+}
+.social-media {
+    margin-top: 3%;
+}
+
+.icon {
+    margin-right: 6%;
+}
+
+.verticalLine {
+    border-left: thick solid #F0F2ef;
+    display: flex;
+    margin-bottom: -20px;
+    margin-left: 28px;
+}
+
+
+@media only screen and (max-width: 480px){
+    .navbar-top {
+        height: 30px;
+        line-height: 18px;
+        background: #f3f3f3;
+        background: -webkit-linear-gradient( #fefefe, #eeeeee);
+        background: -o-linear-gradient( #fefefe, #eeeeee);
+        background: -moz-linear-gradient( #fefefe, #eeeeee);
+        background: linear-gradient( #fefefe, #eeeeee);
+        font-size: 8px;
+        letter-spacing: 0;
+        overflow: hidden;
+    }
+    .nav-width {
+         margin: 0;
+    }
+
+    .verticalLine {
+        display: none;
+    }
+    .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+        width: 40px;
+        height: 40px;
+    }
+    .footer-blurb {
+        padding: 20px 20px;
+    }
+    .shipping {
+        margin: 7px 0 0 22%;
+    }
+    .account {
+        margin: 7px 22% 0 0;
+    }
+    .shopping-cart {
+        display: none;
+    }
+    .navbar-toggle {
+        position: relative;
+        float: right;
+        padding: 9px 10px;
+        margin-top: 8px;
+        margin-right: 15px;
+        margin-bottom: 8px;
+        background-color: transparent;
+        background-image: none;
+        border: 1px solid grey;
+        border-radius: 4px;
+    }
+
+    .navbar-toggle .icon-bar {
+        display: block;
+        width: 22px;
+        height: 2px;
+        border-radius: 1px;
+        border: 1px solid grey;
+    }
+}
+
